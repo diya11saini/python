@@ -112,3 +112,36 @@ else:
 
 # Number of Days in a Month
 # Given a month number and year, print the number of days in that month (handle leap year).
+
+'''
+a=int(input("enter : "))
+b=int(input("enter : "))
+oper=str(input("enter : "))
+if oper=="+":
+    print(a+b)
+elif oper=="-":
+    if a>b:
+        print(a-b)
+    elif b>a:
+        print((a-b))
+    else:
+        print("both are equal")
+elif oper=="*":
+    print(a*b)
+elif oper=="/":
+    if a>b:
+        print(a/b)
+    elif b>a:
+        print(b/a)
+    else:
+        print("1")
+else:
+    print("operator is not valid")                                
+'''
+
+
+a=str(input("enter : "))
+if a=="a" and a=="e" and a=="i" and a=="o" and a=="u":
+    print("vowels")
+else:
+    print("consonent")
