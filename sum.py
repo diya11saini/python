@@ -18,11 +18,7 @@ print("hello")
 '''
 
 '''
-yr=eval(input("enter the number : "))
-if yr%4==0 & (yr%400==0 | yr%100!=0):
-    print("leap year")
-else:
-    print("non leap year")
+
 '''
 
 
@@ -60,3 +56,10 @@ total=500
 per=(sum/total)*100
 print(per)
 '''
+
+
+yr=eval(input("enter the number : "))
+if yr%4==0 & (yr%400==0 | yr%100!=0):
+    print("leap year")
+else:
+    print("non leap year")
