@@ -139,9 +139,98 @@ else:
     print("operator is not valid")                                
 '''
 
-
+'''
 a=str(input("enter : "))
-if a=="a" and a=="e" and a=="i" and a=="o" and a=="u":
+if a=="a" or a=="e" or a=="i" or a=="o" or a=="u":
     print("vowels")
 else:
     print("consonent")
+'''
+
+'''
+a=int(input("enter the number : "))
+if a%2==0:
+    print("even")
+else :
+    print("odd")
+'''
+
+
+'''
+un="diyasaini111"
+psd="diya@111"
+user=str(input("enter the user : "))
+password=str(input("enter the number : "))
+if un==user:
+    if psd==password:
+        print("login sucessfully... ")
+    else :
+        print("incorrect password...") 
+else:
+    print("invalid username...")  
+'''             
+
+'''
+a=eval(input("enter the number : "))
+b=eval(input("enter the number : "))
+c=eval(input("enter the number : "))
+
+if a==b==c:
+    print("equilateral triangle")
+elif a==b and b==c and c!=a:
+    print("isosceles")
+   if a==b and b!=c and c==a:
+     print("isosceles")
+   if a!=b and b==c and c==a:
+    print("isosceles")                 
+
+
+else:
+    print("Scalene triangle")
+    '''
+
+'''
+a=str(input("enter the day : "))
+if a=="monday" or a=="tuesday" or a=="wednesday" or a=="thrusday" or a=="friday":
+    print("weeday")
+else:
+    print("weekend")    
+    '''
+
+'''
+temp=eval(input("enter : "))
+if temp<0 :
+    print("freezing")
+elif temp>=0 and temp<=15:
+    print("cold")
+elif temp>=16 and temp<30:
+    print("warm")
+else:
+    print("hot")    
+'''
+
+'''
+a=1000
+d=int(input("enter : "))
+if a>d:
+    print("possible")
+    if d%100==0:
+        print("sucessful")
+    else:
+        print("not sucessful")
+else:
+    print("not possible")            
+'''
+'''
+a=str(input("enter : "))
+if a=="january" or a=="march" or a=="may" or a=="july" or a=="august" or a=="october" or a=="december":
+    print("31")
+elif a=="february":
+    b=int(input("enter the year : "))
+    if b%4==0 and (b%400==0 or b%100!=0):
+        print("29")
+    else:
+        print("28")
+else:
+    print("30")              
+'''
