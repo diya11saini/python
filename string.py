@@ -14,5 +14,14 @@ print(a[5])
 '''
 
 
+a="republic day"
+count=0
+for i in a:
+   print(i)
+   count+=1
+print(count)   
+
+
+
 
 
