@@ -234,3 +234,42 @@ elif a=="february":
 else:
     print("30")              
 '''
+
+'''
+a = int(input("Enter the first side: "))
+b = int(input("Enter the second side: "))
+c = int(input("Enter the third side: "))
+
+if a == b == c:
+    print("Equilateral triangle")
+
+elif a == b or b == c or a == c:
+    print("Isosceles triangle")
+
+else:
+    print("Scalene triangle")
+
+'''
+
+
+# Electricity Bill Calculation
+# Units consumed:
+# First 100 units → ₹1/unit
+# Next 100 units → ₹2/unit
+# Above 200 units → ₹3/unit
+# Calculate and print the total bill.
+'''
+units = int(input("Enter the units consumed: "))
+
+if units <= 100:
+    bill = units * 1
+
+elif units <= 200:
+    bill = (100 * 1) + (units - 100) * 2
+
+else:
+    bill = (100 * 1) + (100 * 2) + (units - 200) * 3
+    
+
+print("Total Electricity Bill: ₹", bill)
+'''
