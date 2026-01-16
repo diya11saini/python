@@ -34,10 +34,31 @@ for i in range(1,a+1):
 # palindrome   
 #  sum of digits
   
-
+'''
 #sum of even numbers
-a=int(input("enter : "))  
+a=int(input("enter : "))
+sum=0  
 for i in range(1,a+1):
     if i%2==0:
         print(i)
-        
+        sum+=i
+print(sum) '''       
+
+# palindrome...
+'''        
+s=input("")
+s1=s[::-1]
+if s==s1:
+    print("palindrome")
+else:
+    print("not palindrome")
+    '''
+# sum of digits...
+'''
+a=int(input("enter : "))
+sum=0  
+for i in range(1,a+1):
+        print(i)
+        sum+=i
+print(sum) '''
+
