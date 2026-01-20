@@ -62,3 +62,21 @@ print(list(c))
 # Use reduce to concatenate all strings in ['Hi', ' ', 'there', '!'].
 
 # Use reduce to find the factorial of 5 using [1, 2, 3, 4, 5].
+
+
+'''
+def positive(n):
+    a=n>=0
+    return a
+
+l=[-5, 3, -2, 9, 0, -1]
+b=filter(positive,l)
+print(list(b))    '''
+
+def string():
+    n=input()
+    a=n>3
+    return a
+l=['hi', 'hello', 'cat', 'python']
+b=filter(string,l)
+print(list(b))
