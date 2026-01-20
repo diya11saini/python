@@ -104,6 +104,25 @@ print(x)'''
 # delete an element:
 # wap to multiple all the no. from the list:
 # find HCF of two no.:
+'''
+# hcf 
+a = 20
+b = 28
+x=min(a,b)
+
+for i in range(x, 0, -1): #20,19,18....1
+    if a % i == 0 and b % i == 0:
+        print(i)  # i is the hcf
+        break
+'''
+
+
+'''
+l=[2,4,5,6,90]
+n=1
+for i in l:
+    n=i*n
+print(n)'''
 
 
 '''
