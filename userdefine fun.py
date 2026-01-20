@@ -95,8 +95,7 @@ print(x)'''
 
 
 # wap to input a string and count the no. of upper and lower cases:
-# oocurance count
-# remove the duplicate value from the list:
+# ocurance count
 # count the vowel in the string:
 # sum of digit:
 # check if the given key exists in the dictionary:
@@ -105,3 +104,100 @@ print(x)'''
 # delete an element:
 # wap to multiple all the no. from the list:
 # find HCF of two no.:
+
+
+'''
+def count(s):
+    upper = 0
+    lower = 0
+
+    for i in s:
+        if i.isupper():
+            upper += 1
+        elif i.islower():
+            lower += 1
+
+    print(upper)
+    print(lower)
+
+s = input("Enter a string: ")
+count(s)'''
+
+
+'''
+def occurance(s, ch):
+    count = 0
+    for i in s:
+        if i == ch:
+            count += 1
+    return count
+
+
+string = input("Enter a string: ")
+char = input("Enter a character: ")
+
+result=occurance(string, char)
+print(result)'''
+
+
+'''
+
+def vowels(s):
+    count = 0
+    for ch in s:
+        if ch in "aeiouAEIOU":
+            count += 1
+    return count
+
+
+string = input("Enter a string: ")
+print(vowels(string))'''
+
+
+'''
+def sum(n):
+    s = 0
+    for i in str(n):
+        s += int(i)
+    return s
+
+num = int(input("Enter a number: "))
+print(sum(num))'''
+
+
+
+'''def exist(d, key):
+    if key in d:
+        print("Key exists")
+    else:
+        print("not exist")
+
+
+my_dict = {'a': 10, 'b': 20, 'c': 30}
+key = input("Enter key to check: ")
+exist(my_dict, key)'''
+
+'''
+def oddeven(t):
+    for num in t:
+        if num % 2 == 0:
+            print("Even")
+        else:
+            print("Odd")
+
+
+tuple = (1, 2, 3, 4, 5)
+oddeven(tuple)'''
+
+
+'''
+def factorial(n):
+    fact = 1
+    for i in range(1, n+1):
+        fact *= i
+    print(fact)
+
+num = int(input("Enter a number: "))
+factorial(num)'''
+
+
