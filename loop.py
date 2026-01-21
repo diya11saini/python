@@ -62,3 +62,17 @@ for i in range(1,a+1):
         sum+=i
 print(sum) '''
 
+
+'''# perfect numbers
+num = int(input("Enter Number : "))
+Sum = 0
+
+for i in range(1,num):
+    if(num %i == 0):
+        Sum += i
+
+if(Sum == num):
+    print("Perfect Number")
+else:
+    print("Not Perfect Number")'''
+

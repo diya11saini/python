@@ -73,10 +73,68 @@ l=[-5, 3, -2, 9, 0, -1]
 b=filter(positive,l)
 print(list(b))    '''
 
-def string():
-    n=input()
-    a=n>3
+
+'''
+def string(n):
+    a=len(n)>3
     return a
 l=['hi', 'hello', 'cat', 'python']
 b=filter(string,l)
+print(list(b))'''
+
+'''def multiple (n):
+    a=n%3==0
+    return a
+l= [3, 7, 9, 10, 12, 14]
+b=filter(multiple,l)
 print(list(b))
+'''
+
+'''def add(n):
+    a=n+5
+    return a
+l=[10, 20, 30, 40]
+b=map(add,l)
+print(list(b))
+'''
+
+
+'''def length(n):
+    a=len(n)
+    return a
+l=['hi', 'hello', 'python']
+b=map(length,l)
+print(list(b))
+'''
+
+'''
+def square(n):
+    a=n*n
+    return a
+l= [2, 4, 6, 8]
+b=map(square,l)
+print(list(b))'''
+
+
+ #from functools import reduce
+'''
+l=[1,2,3,4]
+product=reduce(lambda x,y:x*y,l)
+print(product)'''
+
+'''
+l=[5, 12, 7, 18, 3]
+num=reduce(lambda x , y :max(x,y),l)
+print(num)'''
+
+
+'''
+l=['Hi', ' ', 'there', '!']
+a=reduce(lambda x,y :x+y,l)
+print(a)'''
+
+
+'''
+l=[1, 2, 3, 4, 5]
+a=reduce(lambda x,y:x*y,l)
+print(a)'''
